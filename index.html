@@ -2,9 +2,137 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Title</title>
 </head>
 <body>
+    <header>
+        <h1>LOGO</h1>
+    </header>
+    <div class="bread-crumbles">
+        <div class="item-bread-crumbles"><a href="#">Главная</a></div>
+        <div class="item-bread-crumbles arrow-bread-crumbles"><img src="images/img_arrow.png" alt=""></div>
+        <div class="item-bread-crumbles">Следуюшая страница</div>
+    </div>
+    <div class="main">
+        <div class="article">
+            <div class="article-card">
+                <h1>Новая коллекция ручных часов</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda deleniti dolor ea fuga necessitatibus nobis reiciendis saepe unde vitae voluptatibus. Asperiores aut, deleniti molestias mollitia nisi ratione? Architecto, dicta voluptatibus.</p>
+                <div class="article-card-picture"><img src="images/img_main.jpg" alt="lijfag"></div>
+                <p> pariatur reprehenderit rerum saepe sed, tempore tenetur voluptatum.  </p>
+            </div>
+            <div class="article-card article-card-h3">
+                <h3>Заголовок H3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda deleniti dolor ea fuga necessitatibus nobis reiciendis saepe unde vitae voluptatibus. Asperiores aut, deleniti molestias mollitia nisi ratione? Architecto, dicta voluptatibus.</p>
+                <ul class="article-card-ul">
+                    <li class="article-card-ul-li"><a href="#" class="article-card-link">Bla-bla</a></li>
+                    <li class="article-card-ul-li"><a href="#" class="article-card-link">Bla-bla</a></li>
+                    <li class="article-card-ul-li"><a href="#" class="article-card-link">Bla-bla</a></li>
+                    <li class="article-card-ul-li"><a href="#" class="article-card-link">Bla-bla</a></li>
+                    <li class="article-card-ul-li"><a href="#" class="article-card-link">Bla-bla</a></li>
+                </ul>
+            </div>
+            <div class="article-card-1-in-3">
+                <div class="article-card-imageholder">
+                    <div class="image imageholder"><img src="images/img_1.jpg" alt=""></div>
+                    <div class="image imageholder"><img src="images/img_2.jpg" alt=""></div>
+                    <div class="image imageholder"><img src="images/img_3.jpg" alt=""></div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda deleniti dolor ea fuga necessitatibus nobis reiciendis saepe unde vitae voluptatibus. Asperiores aut, deleniti molestias mollitia nisi ratione? Architecto, dicta voluptatibus.</p>
+                <ul class="article-card-ul">
+                    <li class="article-card-ul-li-2">1) Bla-bla</li>
+                    <li class="article-card-ul-li-2">2) Bla-bla</li>
+                    <li class="article-card-ul-li-2">3) Bla-bla</li>
+                </ul>
+                <p> pariatur reprehenderit rerum saepe sed, tempore tenetur voluptatum.  </p>
+            </div>
+            <div class="article-card-table">
+                <h4>ТАБЛИЦА</h4>
+                <table class="table" cellspacing="0">
+                    <tr class="table-row">
+                        <td class="column">Время</td>
+                        <td class="column">Текстовое название</td>
+                        <td class="column">Название 1</td>
+                        <td class="column">Название 2</td>
+                        <td class="column"></td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="column">9:40</td>
+                        <td class="column">Текстовое название 1</td>
+                        <td class="column">Количество 1</td>
+                        <td class="column">Стоимость 1</td>
+                        <td class="column"><a href="#" class="table-link">текстовая ссылка</a></td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="column">11:20</td>
+                        <td class="column">Текстовое название 2</td>
+                        <td class="column">Количество 2</td>
+                        <td class="column">Стоимость 2</td>
+                        <td class="column"><a href="#" class="table-link">текстовая ссылка</a></td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="column">9:40</td>
+                        <td class="column">Текстовое название 13</td>
+                        <td class="column">Количество 3</td>
+                        <td class="column">Стоимость 3</td>
+                        <td class="column"><a href="#" class="table-link">текстовая ссылка</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="article-tabs">
+                <h4>ТАБЫ</h4>
+                <div class="wrapper-tab" id="wrapper">
+                    <input type="radio" name="table" id="tab-1" checked/>   <!-- поле name у всех кнопок должно быть одинаковым-->
+                    <label class="button-tub" for="tab-1">Активный таб</label>
+                    <input type="radio" name="table" id="tab-2"/>
+                    <label class="button-tub" for="tab-2">Неактивный таб</label>
+                    <div class="tabloid_" id="tabloid">
+                        <div class="tabloid-item">Тестовый текст в первом табе. Наручные женские часы не только необходимость знания времени, но и элемент имиджа, предмет гордости, и украшение! Для женщин стало престижно иметь не одни часы, а несколько. Они ведь, несомненно, должны сочетаться с Вашим нарядом. Сплошная элегантность и роскошь, браслет, корпус инкрустированы стразами, застежка простая.
+                        </div>
+                        <div class="tabloid-item">rreqhgtrha</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="aside">
+            <form class="search">
+                <input class="icon-search" type="text" name="search">
+            </form>
+            <div class="news">
+                <h2>Новости</h2>
+            </div>
+            <div class="card-news">
+                <a href="#">Новые женские часы в 2013 году</a>
+                <p>09.04.2013</p>
+                <p>Для женщин стало престижно иметь не одни часы, а несколько</p>
+            </div>
+            <div class="card-news">
+                <a href="#">Новые женские часы в 2013 году</a>
+                <p>09.04.2013</p>
+                <p>Для женщин стало престижно иметь не одни часы, а несколько</p>
+            </div>
+            <div class="card-news">
+                <a href="#">Новые женские часы в 2013 году</a>
+                <p>09.04.2013</p>
+                <p>Для женщин стало престижно иметь не одни часы, а несколько</p>
+            </div>
+            <div class="button">
+                <button class="button-news">Все новости</button>
+            </div>
+            <div class="subscription">
+                <h2>Подписка</h2>
+                <form action="#" class="form-subscription">
+                    <input type="text" class="input-name" placeholder="Имя">
+                    <input type="text" class="input-email" placeholder="E-mail">
+                    <input type="submit" class="submit" value="Подписаться">
+                </form>
+            </div>
+        </div>
 
+    </div>
+    <footer>
+
+    </footer>
 </body>
 </html>

@@ -1,0 +1,117 @@
+/*
+!*  image нужно поместить в div *!
+div {
+    height: 200px; }
+img {
+    display:block;
+    object-fit: cover;
+}
+
+.wrapper-tab {
+    width: 500px;
+}
+!* .wrapper-tab {
+	width: 500px;
+} *!
+.wrapper-rd {
+    display: flex;
+    width: 500px;
+    height: 100px;
+    align-items: center;
+    background: tomato;
+    flex-wrap: wrap;
+}
+
+#tab-1, #tab-2, #tab-3 {
+    display: none;
+}
+
+label {
+    cursor:pointer;
+    display: block;
+    flex-basis: 100px;
+    text-align: center;
+    padding: 10px 10px;
+    height: 100px;
+    background-color: #faf;
+    border: 1px solid red;
+    border-radius: 5px 5px 0 0;
+}
+#tabloid {
+    width: 500px;
+    clear: both;
+}
+.tabloid-item {
+    border: 1px solid gray;
+    height: 150px;
+    background-color: yellow;
+    position: absolute;
+    width: 500px;
+    opacity: 0;
+}
+
+#tab-1:checked ~ #tabloid > div:nth-of-type(1),
+#tab-2:checked ~ #tabloid > div:nth-of-type(2),
+#tab-3:checked ~ #tabloid > div:nth-of-type(3) {
+    opacity: 1;
+}
+
+#wrapper-radio > input:checked + label {
+    background-color: yellow;
+}
+
+
+
+
+!*
+.wrapper-tab {
+  display: flex;
+	width: 80%;
+	margin: 100px auto;
+	max-width:600px;
+
+	label {
+		cursor:pointer;
+
+		margin-right: 5px;
+		display: block;
+		padding: 10px 40px;
+		background-color: #ecf0f1;
+		border-radius:20px 20px 0 0;
+	}
+
+	input {
+		display: none;
+		&:checked + label
+    {
+
+      background-color: #e74c3c;
+			color:#fefefe;
+		}
+	}//input
+
+	input[id="tab-1"]:checked ~ .content .tab-1,
+	input[id="tab-2"]:checked ~ .content .tab-2,
+	input[id="tab-3"]:checked ~ .content .tab-3
+
+		display: block;
+	}
+
+	.content {
+		clear:both;
+		position: relative;
+	}
+
+	article {
+		width: 100%;
+		padding: 70px 50px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-color: #fff;
+		display: none;
+		min-height: 200px;
+		border-top:5px solid #e74c3c;
+		border-radius:0 10px 10px 10px;
+	} *!
+*/
